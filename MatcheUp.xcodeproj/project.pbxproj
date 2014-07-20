@@ -22,6 +22,7 @@
 		023A1BCC197B9C6E000A3293 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023A1BAB197B9C6D000A3293 /* UIKit.framework */; };
 		023A1BD4197B9C6E000A3293 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 023A1BD2197B9C6E000A3293 /* InfoPlist.strings */; };
 		023A1BD6197B9C6E000A3293 /* MatcheUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A1BD5197B9C6E000A3293 /* MatcheUpTests.m */; };
+		023A1BE1197B9D36000A3293 /* CCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A1BE0197B9D36000A3293 /* CCLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		023A1BD1197B9C6E000A3293 /* MatcheUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatcheUpTests-Info.plist"; sourceTree = "<group>"; };
 		023A1BD3197B9C6E000A3293 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		023A1BD5197B9C6E000A3293 /* MatcheUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatcheUpTests.m; sourceTree = "<group>"; };
+		023A1BDF197B9D36000A3293 /* CCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLoginViewController.h; sourceTree = "<group>"; };
+		023A1BE0197B9D36000A3293 /* CCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 				023A1BB6197B9C6D000A3293 /* CCAppDelegate.h */,
 				023A1BB7197B9C6D000A3293 /* CCAppDelegate.m */,
 				023A1BB9197B9C6D000A3293 /* Main.storyboard */,
+				023A1BE2197B9D3F000A3293 /* Login */,
 				023A1BBC197B9C6D000A3293 /* CCFirstViewController.h */,
 				023A1BBD197B9C6D000A3293 /* CCFirstViewController.m */,
 				023A1BBF197B9C6D000A3293 /* CCSecondViewController.h */,
@@ -155,6 +159,15 @@
 				023A1BD2197B9C6E000A3293 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		023A1BE2197B9D3F000A3293 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				023A1BDF197B9D36000A3293 /* CCLoginViewController.h */,
+				023A1BE0197B9D36000A3293 /* CCLoginViewController.m */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				023A1BC1197B9C6D000A3293 /* CCSecondViewController.m in Sources */,
+				023A1BE1197B9D36000A3293 /* CCLoginViewController.m in Sources */,
 				023A1BB8197B9C6D000A3293 /* CCAppDelegate.m in Sources */,
 				023A1BBE197B9C6D000A3293 /* CCFirstViewController.m in Sources */,
 				023A1BB4197B9C6D000A3293 /* main.m in Sources */,
